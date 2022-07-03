@@ -6,10 +6,9 @@ const Section = () => {
   return (
     <section className={style.display}>
       <div className={style.textContainer}>
-        <h1 className={style.title}>Live Design.</h1>
+        <h1 className={style.title}>Live </h1><h1 className={style.titleColor}>Design.</h1>
       </div>
-      <div className={style.imgContainer}>
-      </div>
+      <div className={style.imgContainer}/>
     </section>
   );
 };
