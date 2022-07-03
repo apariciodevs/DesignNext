@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
+
+
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import Section from '../components/Section'
@@ -15,12 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
-        <Nav></Nav>
+      <main>
         <Hero></Hero>
         <Section></Section>
-
-
       </main>
 
     </div>

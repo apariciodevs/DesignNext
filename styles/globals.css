@@ -7,6 +7,8 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   background-color: black;
+  overflow-x: hidden;
+
 }
 
 a {
