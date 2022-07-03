@@ -1,0 +1,109 @@
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.textContainer {
+    color: white;
+    font-size:60px;
+    padding: 0px 8px;
+    text-align: center;
+    letter-spacing: -9.6px;
+
+}
+
+
+
+.titleTop {
+     margin-bottom: -80px;
+    line-height: 160px;
+    font-weight: 800;
+    line-height: 128px;
+    padding: 0px 6.4px;
+    transition: 0.8;
+}
+
+.titleTop:hover {
+    background-image: linear-gradient(90deg, rgba(17, 119, 252, 0.896) 30%, rgb(8, 214, 255) 100%);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;  
+}
+
+
+.titleMid {
+    background-image: linear-gradient(90deg, rgba(140, 62, 243, 0.896) 30%, rgb(255, 0, 221) 100%);
+    background-clip:text;
+    -webkit-text-fill-color: transparent; 
+    margin-bottom: -80px;
+    line-height: 160px;
+    font-weight: 800;
+    line-height: 128px;
+    padding: 0px 6.4px;
+}
+
+
+
+.titleBottom {
+    background-image: linear-gradient(90deg, rgba(252, 105, 32, 0.896) 30%, rgb(255, 240, 73) 100%);
+    background-clip:text;
+    -webkit-text-fill-color: transparent; 
+    line-height: 160px;
+    font-weight: 800;
+    line-height: 128px;
+    padding: 0px 6.4px;
+}
+
+
+
+
+
+
+
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.btnLeft {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px 16px;
+    width: 200px;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.btnLeft:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btnRight {
+    color: gray;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 16px 16px;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.btnRight:hover {
+    color: white;
+    border: 1px solid white;
+}
