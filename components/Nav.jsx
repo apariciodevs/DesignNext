@@ -7,12 +7,12 @@ const Nav = () => {
     <header className={style.navDisplay}>
       <div className={style.logoContainer}>
         <Image
-                src="/favicon.ico"
-                width={40}
-                height={40}
+                src="/icon.png"
+                width={25}
+                height={25}
                 alt='logo'
         ></Image>
-        <h1 className={style.logo}>Vercel</h1>
+        <h1 className={style.logo}>Wrine UI</h1>
       </div>
       <nav></nav>
     </header>

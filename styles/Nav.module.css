@@ -9,10 +9,11 @@
 
 .logo {
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     cursor: pointer;
+    padding: 18px;
 }
 
 .logoContainer {
