@@ -14,7 +14,8 @@ const Section = () => {
       <div className={style.textContainer}>
         <h1 className={style.title}>Live </h1><h1 className={style.titleColor}>Design.</h1>
       </div>
-      <motion.div className={style.imgContainer} drag dragConstraints={constraintsRef}/>
+      <motion.div className={style.imgContainer} drag dragConstraints={constraintsRef}   whileHover={{ scale: 1.1 }}
+/>
     </section>
   );
 };

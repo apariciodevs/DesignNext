@@ -7,10 +7,10 @@ const Hero = () => {
     <div className={style.display}>
       <div className={style.textContainer}>
         <span className={style.textBox}>
-          <h1 className={style.titleTop}>Develop.</h1>
+          <h1 className={style.titleTop}>Design.</h1>
         </span>
         <span>
-          <h1 className={style.titleMid}>Preview.</h1>
+          <h1 className={style.titleMid}>Develop.</h1>
         </span>
         <span>
           <h1 className={style.titleBottom}>Ship.</h1>
